@@ -1,0 +1,4 @@
+.ql-container.ql-snow .ql-editor postquote .body .expandable.expandable-overflown {
+mask-image: none;
+-webkit-mask-image: none;
+}
