@@ -1,0 +1,12 @@
+.postrender .postinner > .postuser {
+border-right: 1px solid #bbb;
+}
+.postrender .postinner > .postuser .background-image, .postrender .postinner > .postuser .has-background-image {
+display: block;
+}
+.background-image {
+opacity: 100;
+}
+.postblock-read .postinner > .postuser .background-image::after {
+background: linear-gradient(to bottom, rgba(245,245,245,0.6), rgba(245,245,245,1.0) 496px);
+}
